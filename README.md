@@ -11,9 +11,12 @@ simple CRUD with reactjs nodejs mysql
 
 # Config database
 goto server-react/bin/db.js then edit with yours
+<pre>
+
     var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'db_mhs'
+        host: 'localhost',
+        user: 'root',
+        password: '',
+        database: 'db_mhs'
     });
+</pre>
